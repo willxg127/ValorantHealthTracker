@@ -1,6 +1,6 @@
 # Valorant Health Tracker
 
-A unique hardware-software integration project that tracks player health in Valorant and provides physical feedback through Arduino-controlled hardware. The system uses optical character recognition (OCR) to monitor in-game health status in real-time and triggers a servo motor response when health changes are detected.
+A hardware-software integration project that tracks player health in Valorant and provides "physical feedback" (getting shot with an airsoft gun, very painful) through Arduino-controlled hardware. The system uses optical character recognition (OCR) to monitor in-game health status in real-time and triggers a servo motor response when health changes are detected.
 
 ## Features
 
@@ -88,7 +88,7 @@ python ocr.py
 
 ## Troubleshooting
 
-- Ensure Tesseract OCR is properly installed and the path is correctly set
+- Make sure that Tesseract OCR is properly installed and the path is correctly set, you can install it [here](https://github.com/h/pytesseract)
 - Check that the COM port matches your Bluetooth module's port
 - Verify the screen capture region matches your game's health display location
 - Make sure all hardware connections are secure
@@ -101,6 +101,7 @@ Feel free to fork this project and submit pull requests for any improvements you
 - Customizable screen capture regions
 - Additional physical feedback mechanisms
 - Improved OCR accuracy
+- Improved response speed
 
 ## License
 
