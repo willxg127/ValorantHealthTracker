@@ -1,4 +1,4 @@
-# Valorant Health Tracker
+# [Valorant Health Tracker](https://www.youtube.com/shorts/00Lh-vMx2dM)
 
 A hardware-software integration project that tracks player health in Valorant and provides "physical feedback" (getting shot with an airsoft gun, very painful) through Arduino-controlled hardware. The system uses optical character recognition (OCR) to monitor in-game health status in real-time and triggers a servo motor response when health changes are detected.
 
